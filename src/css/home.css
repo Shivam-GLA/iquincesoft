@@ -1,0 +1,59 @@
+#home {
+    font-family: var(--font1);
+    background: url('/img/bg1.png')no-repeat center center/cover rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+    color: var(--font-color);
+    display: flex;
+    align-items: center;
+}
+
+#home .info {
+    width: 60%;
+    padding: 7vw;
+}
+
+.btn.btn-blue {
+    background: rgba(52, 97, 255, 1);
+    color: var(--font-color);
+}
+.btn.btn-blue:hover {
+    background: rgb(53, 84, 197);
+}
+
+#home .info h1 {
+    font-size: var(--heading-font);
+    font-weight: 500;
+    line-height: 4vw;
+}
+
+#home .info h3 {
+    font-size: var(--font-size);
+    font-weight: 400;
+    margin: 18px 0;
+}
+
+
+/* awards css */
+
+#awards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 22vw;
+    background: url('/img/bg2.png')no-repeat center center/cover rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+
+#awards .info {
+    width: 22vw;
+    height: max-content;
+}
+
+#awards .info h1.heading {
+    color: var(--font-color);
+}
+
+#awards .info h3.subHeading {
+    color: var(--font-color);
+    margin: 1vw 0;
+}

@@ -1,0 +1,45 @@
+#process {
+    font-family: var(--font1);
+    background: rgb(245, 245, 245);
+    padding: 28px 2vw;
+}
+
+#process .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 2vw;
+    margin-top: 2vw;
+}
+
+#process .container .box {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#process .container .box .num {
+    display: inline-flex;
+    height: 2.5vw;
+    width: 2.5vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: var(--font-size);
+    align-self: flex-start;
+    background: white;
+
+}
+
+#process .container .box img {
+    width: 40%;
+}
+
+#process .container .box h1.heading {
+    font-size: var(--font-size);
+    margin: 2vw 0;
+}
+
+#process .container .box h3.subHeading {
+    margin: 0;
+}

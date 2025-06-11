@@ -1,0 +1,147 @@
+ @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ :root {
+     --font1: "Jost", sans-serif;
+     --font-color: rgba(255, 255, 255, 1);
+     --font-size: 16px;
+     --hover-color: #ffffffad;
+     --heading-font: 4vw;
+     --heading-color: rgba(1, 2, 5, 1);
+     --subHeading-color: rgba(135, 140, 145, 1);
+ }
+
+ #navbar {
+     width: 100%;
+     background-color: rgba(128, 157, 199, 1);
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     font-family: var(--font1);
+     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+     padding: 11px 0;
+     position: sticky;
+     top: 0;
+     z-index: 1000;
+ }
+
+ #navbar .logo {
+     width: 211px;
+ }
+
+ #navbar ul {
+     display: flex;
+     margin: 0 3%;
+ }
+
+ #navbar ul li {
+     list-style: none;
+     color: var(--font-color);
+     font-weight: 400;
+     font-size: var(--font-size);
+     margin: 0 25px;
+     cursor: pointer;
+     transition: all 0.4s ease;
+ }
+
+ #navbar ul li:hover {
+     color: var(--hover-color);
+ }
+
+ .btn {
+     background: var(--font-color);
+     border: none;
+     font-family: var(--font1);
+     padding: 14px 35px;
+     border-radius: 70px;
+     font-size: var(--font-size);
+     cursor: pointer;
+     transition: all 0.4s ease;
+ }
+
+ .btn:hover {
+     color: rgba(130, 159, 199, 1);
+ }
+
+ .btn:active {
+     transform: scale(0.9);
+ }
+
+ /* Responsive */
+
+ @media only screen and (max-width : 870px) {
+     :root {
+         --font-size: 14px;
+     }
+
+     .btn {
+         padding: 10px 20px;
+     }
+
+     #navbar .logo {
+         width: 145px;
+     }
+
+     #navbar ul li {
+         margin: 0 19px;
+     }
+ }
+
+ @media only screen and (max-width : 680px) {
+     :root {
+         --font-size: 10px;
+     }
+
+     .btn {
+         padding: 8px 14px;
+     }
+
+     #navbar .logo {
+         width: 90px;
+     }
+
+     #navbar ul li {
+         margin: 0 10px;
+     }
+ }
+
+ @media only screen and (max-width : 440px) {
+     :root {
+         --font-size: 8px;
+     }
+
+     .btn {
+         padding: 7px 12px;
+     }
+
+     #navbar .logo {
+         width: 70px;
+     }
+
+     #navbar ul li {
+         margin: 0 8px;
+     }
+ }
+
+ @media only screen and (max-width : 352px) {
+     :root {
+         --font-size: 5px;
+     }
+
+     .btn {
+         padding: 4px 6px;
+     }
+
+     #navbar .logo {
+         width: 30px;
+     }
+
+     #navbar ul li {
+         margin: 0 5px;
+     }
+ }

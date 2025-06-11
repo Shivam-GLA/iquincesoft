@@ -8,6 +8,7 @@ import Result from './Result.jsx';
 import GreatWork from './GreatWork.jsx';
 import Seo from './Seo.jsx';
 import WorkWithUs from './workWithUs.jsx';
+import Footer from './Footer.jsx';
 
 
 function Home() {
@@ -47,6 +48,7 @@ function Home() {
             <GreatWork />
             <Seo />
             <WorkWithUs />
+            <Footer />
         </>
     )
 }

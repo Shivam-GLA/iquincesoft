@@ -4,6 +4,9 @@ import Overview from './Overview.jsx';
 import Test from './Test.jsx';
 import Process from './Process.jsx';
 import ChooseUs from './ChooseUs.jsx';
+import Result from './Result.jsx';
+import GreatWork from './GreatWork.jsx';
+import Seo from './Seo.jsx';
 
 
 function Home() {
@@ -39,6 +42,9 @@ function Home() {
             <Test />
             <Process />
             <ChooseUs />
+            <Result />
+            <GreatWork />
+            <Seo />
         </>
     )
 }

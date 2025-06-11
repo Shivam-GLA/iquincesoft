@@ -3,6 +3,7 @@ import Who from './Who.jsx';
 import Overview from './Overview.jsx';
 import Test from './Test.jsx';
 import Process from './Process.jsx';
+import ChooseUs from './ChooseUs.jsx';
 
 
 function Home() {
@@ -37,6 +38,7 @@ function Home() {
             </section>
             <Test />
             <Process />
+            <ChooseUs />
         </>
     )
 }

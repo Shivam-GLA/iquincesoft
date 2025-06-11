@@ -7,6 +7,7 @@ import ChooseUs from './ChooseUs.jsx';
 import Result from './Result.jsx';
 import GreatWork from './GreatWork.jsx';
 import Seo from './Seo.jsx';
+import WorkWithUs from './workWithUs.jsx';
 
 
 function Home() {
@@ -45,6 +46,7 @@ function Home() {
             <Result />
             <GreatWork />
             <Seo />
+            <WorkWithUs />
         </>
     )
 }

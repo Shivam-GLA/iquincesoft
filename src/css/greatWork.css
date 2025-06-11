@@ -1,0 +1,48 @@
+#greatWork {
+    font-family: var(--font1);
+    padding: 0 8vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3vw 8vw;
+}
+
+#greatWork .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2vw;
+    margin-top: 2vw;
+}
+
+#greatWork .container .box {
+    padding: 0.5vw;
+    box-shadow: 12px 12px 25px #0000001e;
+    border-radius: 10px;
+}
+
+#greatWork .container .box img {
+    height: 60%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#greatWork .container .box .info {
+    height: 38%;
+    padding: 0 0.8vw;
+}
+
+#greatWork .container .box .info h3.subHeading {
+    margin: 0;
+    color: rgba(40, 40, 40, 1);
+    font-weight: 500;
+    font-size: 1.5vw;
+    margin: 0.5vw 0;
+}
+
+#greatWork .container .box .info h4.subHeading {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1.3vw;
+}

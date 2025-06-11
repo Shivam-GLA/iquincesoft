@@ -1,0 +1,17 @@
+#work {
+    font-family: var(--font1);
+    height: 15vw;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: RGBA(2, 6, 9, 1);
+    background: linear-gradient(50deg, rgba(2, 6, 9, 1) 0%, rgba(2, 6, 9, 0.66) 40%, rgba(2, 6, 9, 1) 54%);
+    padding: 7vw;
+    border-radius: 14px;
+    margin: 0 1vw;
+}
+
+#work h1.heading {
+    color: white;
+}

@@ -7,6 +7,9 @@ import ChooseUs from './ChooseUs.jsx';
 import Result from './Result.jsx';
 import GreatWork from './GreatWork.jsx';
 import Seo from './Seo.jsx';
+import Img1 from '/img/background/bg3.png';
+import Img2 from '/img/background/bg4.gif';
+
 
 function Home() {
     return (
@@ -18,7 +21,7 @@ function Home() {
                     <button className="btn btn-blue">Get Started</button>
                 </div>
             </section>
-            <Who />
+            <Who heading='Who We' color='Are' subHeading='Unity blends partnership with purpose. Our digital marketing agency partners with businesses to drive growth while dedicating profits to local and global charities.' />
             <Overview />
             <section id="awards">
                 <div className="info">
@@ -40,7 +43,7 @@ function Home() {
             </section>
             <Test />
             <Process />
-            <ChooseUs />
+            <ChooseUs title='Why Choose Us Partner With Unity' img1path={Img1} img2path={Img2} />
             <Result />
             <GreatWork />
             <Seo />

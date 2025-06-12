@@ -17,7 +17,9 @@
 #chooseUs .bg-img {
     height: 100%;
     width: 100%;
-    background: url("/img/bg3.png")no-repeat center center/cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     transition: all 2s ease;
 }
 
@@ -87,7 +89,9 @@
 .left {
     height: 100%;
     width: 35%;
-    background: url('/img/bg4.gif')no-repeat center top/cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
     position: absolute;
     left: 15.1%;
     top: 0;

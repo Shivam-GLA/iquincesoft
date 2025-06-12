@@ -1,0 +1,24 @@
+.whyBusiness {
+    font-family: var(--font1);
+    display: flex;
+    padding: 6vw 8vw;
+}
+
+.whyBusiness img {
+    margin-right: 2vw;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.whyBusiness .container h1.heading {
+    width: 40%;
+    text-align: left;
+    font-size: 2vw;
+    margin-bottom: 1vw;
+}
+
+.whyBusiness .container h3.subHeading {
+    text-align: left;
+    margin: 0.6vw 0;
+    font-size: 1.3vw;
+}

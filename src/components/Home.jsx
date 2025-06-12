@@ -7,9 +7,6 @@ import ChooseUs from './ChooseUs.jsx';
 import Result from './Result.jsx';
 import GreatWork from './GreatWork.jsx';
 import Seo from './Seo.jsx';
-import WorkWithUs from './WorkWithUs.jsx';
-import Footer from './Footer.jsx';
-
 
 function Home() {
     return (
@@ -47,8 +44,6 @@ function Home() {
             <Result />
             <GreatWork />
             <Seo />
-            <WorkWithUs />
-            <Footer />
         </>
     )
 }

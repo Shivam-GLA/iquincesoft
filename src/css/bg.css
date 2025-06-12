@@ -1,0 +1,33 @@
+#bg {
+    font-family: var(--font1);
+    background-color: rgba(128, 157, 199, 1);
+    height: 22vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw 8vw;
+    position: relative;
+}
+
+#bg .info {}
+
+#bg .info h1.heading {
+    color: white;
+    text-align: left;
+}
+
+#bg .info h3.subHeading {
+    margin: 0;
+    color: white;
+    text-align: left;
+}
+
+#bg img {
+    width: 20vw;
+    height: 15vw;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -1.5vw;
+    right: 8vw;
+    box-shadow: 12px 12px 25px #0000001e;
+}

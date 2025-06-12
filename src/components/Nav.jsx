@@ -1,18 +1,18 @@
 import '../css/nav.css';
-import { NavLink  } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
-function Nav() {
+function Nav(props) {
   return (
     <>
       <nav id="navbar">
-        <img src="/img/logo.png" alt="" className="logo" />
+        <NavLink to='/'><img src="/img/logo.png" alt="" className="logo" /></NavLink>
         <ul>
-          <NavLink  to='/'>How it Works</NavLink>
-          <NavLink  to='/about'>About Us</NavLink>
-          <NavLink  to='/services'>Services</NavLink>
-          <NavLink  to='/blog'>Blog</NavLink>
+          <NavLink to='/'>{props.title1}</NavLink>
+          <NavLink to='/about'>{props.title2}</NavLink>
+          <NavLink to='/services'>{props.title3}</NavLink>
+          <NavLink to='/blog'>{props.title4}</NavLink>
         </ul>
-        <button className="btn">Get Started</button>
+        <button className="btn">{props.btnText}</button>
       </nav>
     </>
   )

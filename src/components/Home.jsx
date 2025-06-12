@@ -12,13 +12,18 @@ import Img2 from '/img/background/bg4.gif';
 
 
 function Home() {
+
+    const infoHeading = 'Two Agencies, One Mission: Growing Your Business to Impact the World.';
+    const infoSubHeading = 'Driving Impact Through Tailored Strategies in Google Ads, Social Media, SEO, and More';
+    const infoBtnText = 'Get Started';
+
     return (
         <>
             <section id="home">
                 <div className="info">
-                    <h1>Two Agencies, One Mission: Growing Your Business to Impact the World.</h1>
-                    <h3>Driving Impact Through Tailored Strategies in Google Ads, Social Media, SEO, and More</h3>
-                    <button className="btn btn-blue">Get Started</button>
+                    <h1>{infoHeading}</h1>
+                    <h3>{infoSubHeading}</h3>
+                    <button className="btn btn-blue">{infoBtnText}</button>
                 </div>
             </section>
             <Who heading='Who We' color='Are' subHeading='Unity blends partnership with purpose. Our digital marketing agency partners with businesses to drive growth while dedicating profits to local and global charities.' />

@@ -18,14 +18,14 @@ function App() {
   return (
     <>
       <Router>
-        <Nav />
+        <Nav title1='How it Works' title2='About Us' title3='Services' title4='Blog' btnText='Get Started' />
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
           <Route exact path="/about" element={<About />}></Route>
           <Route exact path="/services" element={<Services />}></Route>
           <Route exact path="/blog" element={<Blog />}></Route>
         </Routes>
-        <WorkWithUs />
+        <WorkWithUs heading='Ready to work with us ?' btnText='Get Started' />
         <Footer />
       </Router>
     </>

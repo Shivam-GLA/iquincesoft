@@ -1,11 +1,11 @@
 import '../css/workWithUs.css';
 
-function WorkWithUs() {
+function WorkWithUs(props) {
     return (
         <>
             <section id="work">
-                <h1 className="heading">Ready to work with us ?</h1>
-                <button className="btn">Get Started</button>
+                <h1 className="heading">{props.heading}</h1>
+                <button className="btn">{props.btnText}</button>
             </section>
         </>
     )

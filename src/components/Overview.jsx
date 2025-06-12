@@ -23,7 +23,7 @@ function Overview() {
                             <h1 className="heading">Social Media Advertising</h1>
                             <div className="line"></div>
                         </div>
-                        <h3 className="subHeading">Expand your cause’s reach with effective social media campaigns.</h3>
+                        <h3 className="subHeading">Expand your cause's reach with effective social media campaigns.</h3>
                     </div>
                     <div className="box">
                         <img src="../img/services/img3.png" alt="" className="logo" />
